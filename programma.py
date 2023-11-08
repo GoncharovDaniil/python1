@@ -3,5 +3,5 @@ def fibonacci(max):
     while a < max:
         yield a
         a, b = b, a + b
-for n in fibonacci(200):
+for n in fibonacci(100):
     print(n)     
